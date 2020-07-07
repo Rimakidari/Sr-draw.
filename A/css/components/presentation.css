@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css2?family=Meddon&family=Pangolin&family=Parisienne&display=swap);
+
+.pres{
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1)50%), url(../../images/crayon.jpg);
+color: #FFFFFF;
+padding: 100px 0px;
+background-size: cover;
+	text-align: center;
+	font-size: 50px;
+	text-align: center;
+	margin:0px auto;
+	
+}
+
+.pres h1{
+	font-size: 50px;
+	color:#FDFEFE;
+	text-align:center; 
+	margin-top:200px;
+	padding:0px; 
+	font-family: 'Meddon', Handwriting;
+	
+	}
+
+.pres p{
+	font-size: 35px;
+	font-family: 'Pangolin', Handwriting;
+text-align: center;
+color:#69F0AE;
+margin-top:0px;
+}
+
+@media (max-width: 960px){
+.container{
+	width: 700px;
+}
+}
+
+@media (max-width: 720px){
+.container{
+	width:500px;
+}
+}
+
+@media (max-width: 540px){
+.container{
+	width: 300px;
+}
+}
+
+

@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css2?family=Meddon&family=Pangolin&family=Parisienne&display=swap);
+
+
+.ban{
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0)0%, rgba(0,0,0,0.4)50%), url(../../images/motiv.jpg);
+color: #FFFFFF;
+padding: 100px 0px;
+background-size: cover;
+	text-align: center;
+}
+
+.ban h1{
+	font-size: 50px;
+	font-family: 'Meddon', Handwriting;
+	color:#FFEB42   ;
+	text-align: center;
+}
+.ban h3{
+	font-size: 35px;
+	font-family: 'Parisienne', Handwriting;
+text-align: right;
+color:#FD800A ;
+margin: 50px;
+}
+/* Pour le premier div*/
+.cards{
+    padding: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+    border-radius:6px;
+    margin-top:0px;
+    padding-bottom:40px;
+    background-color: #C4C3C3 ;
+}
+.cards:first-child {
+    align-self: center;
+}
+
+.cards h1{
+ color: #48B23C ;
+ font-size: 45px;
+ font-family: 'Parisienne', Handwriting;
+ flex-grow: 1;
+ padding: 0px;
+ margin:0px;
+
+}
+
+
+
+.cards h4{
+    padding-left: 0px;
+    font-size: 30px;
+    font-family: 'Pangolin', Handwriting;
+    color:#14DCAE ;
+}
+
+/*Pour le deuxieme*/
+.card h1{
+ color: #FFC2A5;
+ font-size: 45px;
+ font-family: 'Parisienne', Handwriting;
+ flex-grow: 1;
+ padding: 0px;
+ margin:0px;
+}
+
+
+
+.card h4{
+    padding-left: 0px;
+    font-size: 30px;
+    font-family: 'Pangolin', Handwriting;
+    color:#FFE674;
+}
+
+
+.card{
+    padding: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+    border-radius:6px;
+    margin-top:0px;
+    padding-bottom:40px;
+}
+.card:first-child {
+    align-self: center;
+}
+
+/*Pour le troisieme*/
+.cardss h1{
+ color: #9474FF;
+ font-size: 45px;
+ font-family: 'Parisienne', Handwriting;
+ flex-grow: 1;
+ padding: 0px;
+ margin:0px;
+
+}
+
+
+
+.cardss h4{
+    padding-left: 0px;
+    font-size: 30px;
+    font-family: 'Pangolin', Handwriting;
+    color:#DA74FF;
+}
+
+
+.cardss{
+    padding: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+    border-radius:6px;
+    margin-top:0px;
+    padding-bottom:40px;
+    background-color: #C6D9CD;
+}
+.cardss:first-child {
+    align-self: center;
+}
+
+ 	/*Pour le quatrieme*/
+.cardsss h1{
+  color: #FF7474;
+  font-size: 45px;
+  font-family: 'Parisienne', Handwriting;
+  flex-grow: 1;
+  padding: 0px;
+  margin:0px;
+
+}
+
+
+
+.cardsss h4{
+    padding-left: 0px;
+    font-size: 30px;
+    font-family: 'Pangolin', Handwriting;
+    color:#FFBA74;
+}
+
+
+.cardsss{
+    padding: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+    border-radius:6px;
+    margin-top:0px;
+    padding-bottom:40px;
+}
+.cardsss:first-child {
+    align-self: center;
+}
+
+.card a{
+background-color:#F1948A;
+    color: #FDFEFE;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-top: 200px;
+    vertical-align: bottom;
+    float: bottom;
+    line-height: 50px;
+    margin-bottom:40px;
+     }
+
+
+.card a:hover{
+background-color:#FFF176;
+    color: #273746;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-top: 200px;
+    vertical-align: bottom;
+    float: bottom;
+    line-height:50px;
+    font-weight: bolder;
+     }

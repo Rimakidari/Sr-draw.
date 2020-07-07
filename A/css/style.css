@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Parisienne&display=swap);
+@import url(components/container.css);
+@import url(components/avatar.css);
+@import url(components/banner.css);
+@import url(components/card.css);
+@import url(components/motiv.css);
+
+body{
+	font-family: 'Parisienne', Handwriting;
+	font-size:22px;
+	font-weight: lighter;
+	text-align: center;
+	margin: 0px;
+}
+
+h1,h2{
+font-family:'Pacifico ', Handwriting;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}
+
+@media (max-width: 960px){
+.container{
+	width: 700px;
+}
+}
+
+@media (max-width: 720px){
+.container{
+	width:500px;
+}
+}
+
+@media (max-width: 540px){
+.container{
+	width: 300px;
+}
+}
+.citation{
+	font-size:25px;
+	font-style: italic;
+	font-family: Dancing Script;
+	text-align: center;
+}
+
+.presentation{
+	font-size:24px;
+	font-family: 'Pacifico', Handwriting;
+	text-align: center;
+	font-color:#17202A;
+	background-image: url(../../images/crayon.jpg);
+	padding: 150px 0px;
+background-size: cover;
+	
+}
+}
+

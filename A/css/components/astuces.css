@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gloria+Hallelujah&family=Sacramento&display=swap');
+
+
+@media (max-width: 960px){
+.container{
+	width: 700px;
+}
+}
+
+@media (max-width: 720px){
+.container{
+	width:500px;
+}
+}
+
+@media (max-width: 540px){
+.container{
+	width: 300px;
+}
+}
+
+
+
+.bann{
+
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2)50%), url(../../images/lamp.jpg);
+	background-size: cover;
+	text-align: center;
+    padding: 200px 0px;
+}
+
+.bann h1{
+	font-size:60px;
+	font-family: Gloria Hallelujah;
+	color:#00FF5E;
+}
+
+.bann h4{
+	font-size:50px;
+	font-family: Sacramento;
+	color:#FFF700;
+}
+
+.card h3{
+	font-size:30px;
+	font-family:Dancing script;
+	font-weight: bold;
+	color:#030303;
+	padding-right: 50px;
+	margin:50px;
+	margin-top:30px;
+}
+
+.card p{
+	font-size:28px;
+	font-family: Sacramento;
+	font-weight: lighter;
+	color:#6F6F6C;
+	padding-left: 100px;
+}
+
+.card{
+    padding: 30px;
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius:6px;
+    margin-top:0px;
+    padding-bottom:40px;
+}
+.card :first-child {
+    align-self: center;
+}
+
